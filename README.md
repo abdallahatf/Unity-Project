@@ -1,2 +1,4 @@
 <H1> Math Maze</H1>
-<h3> a Unity Project for <b>Faculty of Science - ASU</b></h3>
+<h3> a Unity Project <br> </h3>
+<h2> for <b>Faculty of Science - ASU</b></h2>
+
