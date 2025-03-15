@@ -1,0 +1,27 @@
+﻿# 🛑 ملفات يتم إنشاؤها تلقائيًا بواسطة Unity
+Library/
+Logs/
+Temp/
+Obj/
+MemoryCaptures/
+
+# 🛑 ملفات Visual Studio و Rider المؤقتة
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.unityproj
+
+# 🛑 مجلدات الترجمة والـ Build
+Build/
+Builds/
+ExportedObj/
+
+# 🛑 ملفات الحزم الخارجية التي يتم إنشاؤها تلقائيًا
+Packages/packages-lock.json
+
+# 🛑 ملفات النظام غير الضرورية
+.DS_Store
+Thumbs.db
