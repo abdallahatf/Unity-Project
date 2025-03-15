@@ -2,7 +2,6 @@
 Library/
 Logs/
 Temp/
-Obj/
 MemoryCaptures/
 
 # 🛑 ملفات Visual Studio و Rider المؤقتة
@@ -17,7 +16,6 @@ MemoryCaptures/
 # 🛑 مجلدات الترجمة والـ Build
 Build/
 Builds/
-ExportedObj/
 
 # 🛑 ملفات الحزم الخارجية التي يتم إنشاؤها تلقائيًا
 Packages/packages-lock.json
