@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class MoveUpOnClick : MonoBehaviour
 {
-    public float moveAmount = 2f;
-    public float moveSpeed = 5f;
+    public float moveAmount = 500f;
+    public float moveSpeed = 70f;
 
     private bool isMoving = false;
     private Vector3 targetPosition;
