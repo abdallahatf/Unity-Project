@@ -1,7 +1,7 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class GateQuestion : MonoBehaviour
 {
     [Header("UI Elements")]
@@ -56,7 +56,6 @@ public class GateQuestion : MonoBehaviour
         questionUI.SetActive(true);
         Time.timeScale = 0f;
     }
-
     public void Answer(bool isCorrect)
     {
         if (playerControllerObject != null)
@@ -75,9 +74,8 @@ public class GateQuestion : MonoBehaviour
         }
         else
         {
-            Debug.Log("Wrong Answer");
+            SceneManager.LoadScene("Focuse");
+            
         }
     }
 }
-
-
